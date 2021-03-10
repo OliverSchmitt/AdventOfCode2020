@@ -26,6 +26,7 @@ def parse_lines(lines):
             passport = ""
             continue
         passport += line + " "
+    c.append(passport)
     return c
 
 
